@@ -12,6 +12,7 @@ export default function Art() {
     const maskTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#art",
+        start,
         end: "bottom center",
         scrub: 1.5,
         pin: true,
